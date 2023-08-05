@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Libre+Baskerville&display=swap');
+
+.logo {
+    width: 150px; 
+}
+
+
+body{
+    font-family: 'Caprasimo', cursive;
+}
+
+header {
+    background-image: url("../img/banner2.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
+.bloquelogo {
+    display: inline-block;
+    height: 20px 20px;
+    padding-left: 300px;
+    position: relative;
+    justify-content: center;
+}
+
+.menu {
+    background-color: black;
+    
+}
+
+
+
+.nav-link {
+    color: antiquewhite;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 0 100px;
+    justify-content: center;
+}
+
+
+/*index,html*/
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    display: inline-block;
+    align-items: center;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cajatexto{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    padding: 40px;
+    margin: 40px;
+    margin-top: 10px;
+    font-style: oblique;
+}
+
+
+.tienda {
+    background-color: white;
+    color:black;
+    padding: 10px 10px;
+    align-items: flex-end;
+    font-family: serif;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+/*productos.html*/
+
+h4 {
+    color: black;
+}
+
+.imgCarousel {
+    height: 350px;
+    object-fit: cover;
+
+}
+
+
+
+/* contacto.html */
+
+h3 {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.formulario {
+    font-family: inherit;
+    background-image: url(../img/humorosa.jpg);
+    border-radius: 1rem;
+    justify-content: center;
+    width: 40%;
+    text-align: left;
+    margin: 70px;
+
+}
+
+.contenido {
+    width: 80%;
+    display: grid;
+    gap: 1rem;
+    grid: auto;
+    justify-content: center;
+}
+
+.mapa {
+    margin: 40px 40px;
+    justify-content: right;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(195, 173, 216);
+    border-bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1px;
+    
+
+}
